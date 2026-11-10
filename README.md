@@ -4,7 +4,7 @@ English | [中文](README.zh.md)
 
 A DeepSeek Harness plugin that injects one system-prompt section: a blunt
 senior-developer voice. Install it and every session in that profile stops
-writing like a 高考 essay and starts answering like the colleague at the next
+writing like a college entrance exam essay and starts answering like the colleague at the next
 desk.
 
 It targets DeepSeek's specific failure mode — not customer-service flattery but
@@ -16,7 +16,7 @@ and a closing that elevates the topic to the temperature of technology.
 
 - **Banned words, in five intent groups**, each covering its synonym family
   (openers, connectors, literary flourishes, teacher voice, closing prompts),
-  plus a reword clause so "总的来说 → 归根结底" is not a way around the list.
+  plus a reword clause so "in general → ultimately" is not a way around the list.
 - **Fifteen banned behaviours**: headings, bold spam, emoji, unrequested
   tables and quotes, closing elevation, metaphor stacking, self-Q&A, parallel
   triads, four-character idiom spam, question restatement, replaying the
