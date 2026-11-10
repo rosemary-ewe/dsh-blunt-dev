@@ -1,0 +1,9 @@
+# dsh-blunt-dev bundle patch: one insert over the profile root.
+# `system-prompt` already lives in the host (dsh-base); this row adds only the
+# blunt-dev style section. Flip `enabled: false` under `config` to disable it
+# without uninstalling.
+- insert:
+    - id: blunt-dev
+      name: dsh-blunt-dev
+      config:
+        enabled: true
